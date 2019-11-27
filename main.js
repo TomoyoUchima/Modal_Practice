@@ -1,5 +1,6 @@
 'use strict';
 
+
 // const open = document.getElementById('open');
 // const mask = document.getElementById('mask');
 // const modal = document.getElementById('modal');

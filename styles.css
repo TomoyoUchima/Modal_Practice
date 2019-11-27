@@ -13,6 +13,21 @@ body {
   margin: 16px auto 0;
 }
 
+#open {
+  background-color: rgb(198, 223, 223);
+  border-bottom: solid 4px #90adaf;
+  border-right: solid 4px #90adaf;
+  box-shadow: 10px 10px 10px rgba(59, 135, 165, 0.6);
+}
+
+#open:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+  border-right: none;/*線を消す*/
+}
+
 #mask {
   background: rgba(0, 0, 0, 0.4);
   position: fixed;  /*画面いっぱいに表示するため*/
